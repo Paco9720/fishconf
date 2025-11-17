@@ -4,7 +4,7 @@ set -e
 
 echo "=== Actualizando repositorios e instalando paquetes necesarios ==="
 sudo apt update
-sudo apt install -y zsh git curl wget build-essential xorg xinit dwm picom nitrogen
+sudo apt install -y zsh git curl wget build-essential
 
 echo "=== Instalando Oh My Zsh ==="
 export RUNZSH=no
