@@ -4,8 +4,8 @@ set -e
 
 echo "=== Instalando Flatpak en Debian ==="
 
-sudo dnf update
-sudo dnf install flatpak -y
+sudo apt update
+sudo apt install flatpak -y
 
 echo "=== Activando Flathub ==="
 
