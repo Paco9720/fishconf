@@ -12,6 +12,8 @@ if ! command -v zsh >/dev/null; then
         sudo pacman -S --noconfirm zsh git
     elif command -v zypper >/dev/null; then
         sudo zypper install -y zsh git
+    elif command -v eopkg >/dev/null; then
+        sudo eopkg install zsh git
     else
         echo "No se detectó gestor de paquetes compatible"
         exit 1
